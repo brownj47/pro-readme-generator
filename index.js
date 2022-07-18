@@ -36,9 +36,10 @@ const questions = [
         name: 'test',
     },
     {
-        type: 'input',
-        message: 'Please enter the license you would like to use for your project.',
+        type: 'list',
+        message: 'Please select the license you would like to use for your project.',
         name: 'license',
+        choices: ['a', 'b']
     },
     {
         type: 'input',
@@ -98,9 +99,9 @@ function write(data) {
 
   ## Questions 
 
-  Github: [${data.github}](${data.github})
-  
-  Email: [${data.email}](${data.email})`
+  Github: [${data.github}](https://github.com/${data.github})
+
+  Email: [${data.email}](mailto:${data.email})`
 
         , function (err) {
             if (err) {
