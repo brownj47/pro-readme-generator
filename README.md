@@ -1,87 +1,47 @@
-# 09 Node.js Challenge: Professional README Generator
+# Node.js: ReadMe Generator
 
-## Your Task
+  ## Description
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
+  In this project, I used node.js, axios, inquire, and fs to gather user input and create a md document named README.md. 
 
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+    
+  ![video walkthrough of application]()
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
+  
+  ## Table of Contents
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Badges](#badges)
+  - [How to Contribute](#How-to-Contribute)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
+  
+  ## Installation
 
-The application will be invoked by using the following command:
+  To get this project up and running, clone the repo, and run npm install in the terminal. This should get you all the necessary packages.
+  
+  ## Usage
+  Run the command 'node index.js' to start the application. The command line will ask you for several inputs, and after you have answered them all, a new file will populate in your directory reflecting your inputs.
 
-```bash
-node index.js
-```
+  ## License
+  None
+  
+  ## Badges
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
+  ![License Badge](https://img.shields.io/static/v1?label=license&message=none&color=green)
+  
+  ## How to Contribute
 
+  None
+  
+  ## Tests
 
-## User Story
+  None
 
-```md
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-```
+  ## Questions 
 
-## Acceptance Criteria
+  Github: [brownj47](https://github.com/brownj47)
 
-```md
-GIVEN a command-line application that accepts user input
-
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-```
-
-## Getting Started
-
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
-
-* Refer to the [Fullstack Blog Video Submission Guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide) for additional guidance on creating a video.
-
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
-
-
-### Deliverables: 20%
-
-* A sample README generated using the application must be submitted.
-
-* Your GitHub repository containing your application code.
-
-### Walkthrough Video: 27%
-
-* A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
-
-* The walkthrough video must demonstrate how a user would invoke the application from the command line.
-
-* The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-
-* The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
-
-
-### Repository Quality: 13%
-
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality README with description and a link to walkthrough video.
-
-
-## Review
-
-You are required to submit the following for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository generated using your application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+  If you have any questions, you can reach me at: [joe@joe.com](mailto:joe@joe.com)

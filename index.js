@@ -56,7 +56,7 @@ const questions = [
 
 // function to wirite the markdown
 function write(data, licenseText) {
-    fs.writeFile('readedadfasdf.md',
+    fs.writeFile('README.md',
         `# ${data.title}
 
   ## Description
