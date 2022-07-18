@@ -54,15 +54,6 @@ const questions = [
 ];
 
 // TODO: Create a function to initialize app
-function init() {
-    inquirer.prompt(
-        questions
-    ).then(write)
-}
-
-// Function call to initialize app
-init();
-
 function write(data) {
     fs.writeFile('readedadfasdf.md',
  `# ${data.title}
@@ -76,6 +67,10 @@ function write(data) {
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
+  - [Badges](#badges)
+  - [How to Contribute](#How-to-Contribute)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
   
   ## Installation
 
@@ -101,7 +96,7 @@ function write(data) {
 
   Github: [${data.github}](https://github.com/${data.github})
 
-  Email: [${data.email}](mailto:${data.email})`
+  If you have any questions, you can reach me at: [${data.email}](mailto:${data.email})`
 
         , function (err) {
             if (err) {
@@ -112,3 +107,12 @@ function write(data) {
         })
 
 }
+function init() {
+    inquirer.prompt(
+        questions
+    ).then(write)
+}
+
+// Function call to initialize app
+init();
+
