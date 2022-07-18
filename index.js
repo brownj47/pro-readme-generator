@@ -1,9 +1,10 @@
-// TODO: Include packages needed for this application
+//Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs')
+const axios = require('axios')
 
 
-// TODO: Create an array of questions for user input
+// an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -39,7 +40,7 @@ const questions = [
         type: 'list',
         message: 'Please select the license you would like to use for your project.',
         name: 'license',
-        choices: ['a', 'b']
+        choices: ['bsd-3-clause', 'lgpl-2.1', 'bsd-2-clause','mpl-2.0','unlicense','bsl-1.0','cc0-1.0','epl-2.0','gpl-3.0','apache-2.0','mit','gpl-2.0','agpl-3.0']
     },
     {
         type: 'input',
@@ -53,10 +54,10 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to initialize app
-function write(data) {
+// function to wirite the markdown
+function write(data, licenseText) {
     fs.writeFile('readedadfasdf.md',
- `# ${data.title}
+        `# ${data.title}
 
   ## Description
 
@@ -80,9 +81,11 @@ function write(data) {
   ${data.usage}
 
   ## License
-  ${data.license}
+  ${licenseText}
   
   ## Badges
+
+  ![License Badge](https://img.shields.io/static/v1?label=license&message=${data.license}&color=green)
   
   ## How to Contribute
 
@@ -107,10 +110,26 @@ function write(data) {
         })
 
 }
+// function to initialize app
 function init() {
     inquirer.prompt(
         questions
-    ).then(write)
+    ).then(function (response) {
+        const ansObj = response
+        console.log(ansObj)
+        const license = ansObj.license
+        axios.get(`https://api.github.com/licenses/${license}`) //get license text from github
+            .then(function (response) {
+                // handle success
+                const licenseText = response.data.body;
+                write(ansObj, licenseText);
+
+            })
+            .catch(function (error) {
+                // handle error
+                console.log(error);
+            })
+    })
 }
 
 // Function call to initialize app
