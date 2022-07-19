@@ -20,17 +20,14 @@ In this project, I used node.js, axios, inquire, and fs to gather user input and
   
 ## Installation
 
-Download the project files and then run:
-```
-npm install
-```
+To get this project up and running, clone the repo, and run 'npm install' in the terminal. This should get you all the necessary packages. 
   
 ## Usage
 
-Run:
-```
-node index.js
-```
+Run the command
+'node index.js'
+to start the application. The command line will ask you for several inputs, and after you have answered them all, a new file will populate in your directory reflecting your inputs.
+
 
 ## License
 None
