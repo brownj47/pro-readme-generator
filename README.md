@@ -1,80 +1,51 @@
-# title
+# Node.js ReadMe Generator
 
-  ## Description
+## Description
 
-  In this project, I used node.js, axios, inquire, and fs to gather user input and create a md document named README.md. 
+In this project, I used node.js, axios, inquire, and fs to gather user input and create a markdown document named README.md. 
 
     
-  [video walkthrough of application](https://drive.google.com/file/d/1dBeq1q6azy86XV34OFE0HPOVJFk0MsaQ/view)
+[video walkthrough of application](https://drive.google.com/file/d/1dBeq1q6azy86XV34OFE0HPOVJFk0MsaQ/view)
 
   
-  ## Table of Contents
+## Table of Contents
   
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Badges](#badges)
-  - [How to Contribute](#How-to-Contribute)
-  - [Tests](#Tests)
-  - [Questions](#Questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Badges](#badges)
+- [How to Contribute](#How-to-Contribute)
+- [Tests](#Tests)
+- [Questions](#Questions)
   
-  ## Installation
+## Installation
 
-  download and tehn run npm install in terminal
+Download the project files and then run:
+```
+npm install
+```
   
-  ## Usage
-  node index.js
+## Usage
 
-  ## License
-  BSD 3-Clause License
+Run:
+```
+node index.js
+```
 
-Copyright (c) [year], [fullname]
-All rights reserved.
+## License
+None
+## Badges
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
-
-3. Neither the name of the copyright holder nor the names of its
-   contributors may be used to endorse or promote products derived from
-   this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
+![License Badge](https://img.shields.io/static/v1?label=license&message=none&color=green)
   
-  ## Badges
+## How to Contribute
 
-  ![License Badge](https://img.shields.io/static/v1?label=license&message=bsd-3-clause&color=green)
+none
   
-  ## How to Contribute
+## Tests
 
-  none
-  
-  ## Tests
+none 
 
-  none 
+## Questions 
 
-  ## Questions 
-
-  Github: [brownj47](https://github.com/brownj47)
-
-<<<<<<< HEAD
-  If you have any questions, you can reach me at: [justus@joe.com](mailto:justus@joe.com)
-=======
-  If you have any questions, you can reach me at: [joe@joe.com](mailto:joe@joe.com)
->>>>>>> da4744b8ff228911a4eb93f9cdb868bc8b6c7b85
+Github: [brownj47](https://github.com/brownj47)
