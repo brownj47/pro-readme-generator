@@ -2,7 +2,11 @@
 
   ## Description
 
-  Cool
+  In this project, I used node.js, axios, inquire, and fs to gather user input and create a md document named README.md. 
+
+    
+  [video walkthrough of application](https://drive.google.com/file/d/1dBeq1q6azy86XV34OFE0HPOVJFk0MsaQ/view)
+
   
   ## Table of Contents
   
@@ -69,4 +73,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
   Github: [brownj47](https://github.com/brownj47)
 
+<<<<<<< HEAD
   If you have any questions, you can reach me at: [justus@joe.com](mailto:justus@joe.com)
+=======
+  If you have any questions, you can reach me at: [joe@joe.com](mailto:joe@joe.com)
+>>>>>>> da4744b8ff228911a4eb93f9cdb868bc8b6c7b85
