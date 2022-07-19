@@ -1,12 +1,8 @@
-# Node.js: ReadMe Generator
+# title
 
   ## Description
 
-  In this project, I used node.js, axios, inquire, and fs to gather user input and create a md document named README.md. 
-
-    
-  ![video walkthrough of application]()
-
+  Cool
   
   ## Table of Contents
   
@@ -20,28 +16,57 @@
   
   ## Installation
 
-  To get this project up and running, clone the repo, and run npm install in the terminal. This should get you all the necessary packages.
+  download and tehn run npm install in terminal
   
   ## Usage
-  Run the command 'node index.js' to start the application. The command line will ask you for several inputs, and after you have answered them all, a new file will populate in your directory reflecting your inputs.
+  node index.js
 
   ## License
-  None
+  BSD 3-Clause License
+
+Copyright (c) [year], [fullname]
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
   
   ## Badges
 
-  ![License Badge](https://img.shields.io/static/v1?label=license&message=none&color=green)
+  ![License Badge](https://img.shields.io/static/v1?label=license&message=bsd-3-clause&color=green)
   
   ## How to Contribute
 
-  None
+  none
   
   ## Tests
 
-  None
+  none 
 
   ## Questions 
 
   Github: [brownj47](https://github.com/brownj47)
 
-  If you have any questions, you can reach me at: [joe@joe.com](mailto:joe@joe.com)
+  If you have any questions, you can reach me at: [justus@joe.com](mailto:justus@joe.com)

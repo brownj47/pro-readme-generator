@@ -57,49 +57,48 @@ const questions = [
 // function to wirite the markdown
 function write(data, licenseText) {
     fs.writeFile('README.md',
-        `# ${data.title}
+`# ${data.title}
 
-  ## Description
+## Description
 
-  ${data.desc}
+${data.desc}
   
-  ## Table of Contents
+## Table of Contents
   
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Badges](#badges)
-  - [How to Contribute](#How-to-Contribute)
-  - [Tests](#Tests)
-  - [Questions](#Questions)
+- [Installation](#installation)
+- [Usage](#usage)- [License](#license)
+- [Badges](#badges)
+- [How to Contribute](#How-to-Contribute)
+- [Tests](#Tests)
+- [Questions](#Questions)
   
-  ## Installation
+## Installation
 
-  ${data.installation}
+${data.installation}
   
-  ## Usage
-  ${data.usage}
+## Usage
+${data.usage}
 
-  ## License
-  ${licenseText}
+## License
+${licenseText}
   
-  ## Badges
+## Badges
 
-  ![License Badge](https://img.shields.io/static/v1?label=license&message=${data.license}&color=green)
+![License Badge](https://img.shields.io/static/v1?label=license&message=${data.license}&color=green)
+
+## How to Contribute
+
+${data.contrib}
   
-  ## How to Contribute
+## Tests
 
-  ${data.contrib}
-  
-  ## Tests
+${data.test}
 
-  ${data.test}
+## Questions 
 
-  ## Questions 
+Github: [${data.github}](https://github.com/${data.github})
 
-  Github: [${data.github}](https://github.com/${data.github})
-
-  If you have any questions, you can reach me at: [${data.email}](mailto:${data.email})`
+If you have any questions, you can reach me at: [${data.email}](mailto:${data.email})`
 
         , function (err) {
             if (err) {
